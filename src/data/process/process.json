@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "heading": "Create your account & add your wallet",
+        "subTitle": "",
+        "image": "img/illustrator/4.png",
+        "animationDelay": 400
+    },
+    {
+        "id": 2,
+        "heading": "Browse the Lucky NFT collections",
+        "subTitle": "",
+        "image": "img/illustrator/22.png",
+        "animationDelay": 600
+    },
+    {
+        "id": 3,
+        "heading": "Join your favorite NFT lottery",
+        "subTitle": "",
+        "image": "img/illustrator/3.png",
+        "animationDelay": 800
+    },
+    {
+        "id": 4,
+        "heading": "Wait for the draw day and enjoy your prize",
+        "subTitle": "",
+        "image": "img/illustrator/11.png",
+        "animationDelay": 1000
+    }
+]

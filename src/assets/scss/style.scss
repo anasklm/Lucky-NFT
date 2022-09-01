@@ -1,0 +1,109 @@
+/*
+[Master Stylesheet]
+
+Template Name: Funto - React NFT Marketplace
+Template Author: Designing World
+Template Author URL: https://themeforest.net/user/designing-world
+Version: 1.1.0
+*/
+
+/*
+[Table of Contents]
+    Google Fonts
+    Template Responsive
+    Template Variables
+    Basic Styles
+        + Reboot CSS
+        + Shortcodes CSS
+    Components Styles
+            + Header CSS
+            + Hero CSS
+            + Footer CSS
+            + NFT CSS
+            + About CSS
+            + Tab CSS
+            + Feedback CSS
+            + Blog CSS
+            + CTA CSS
+            + Breadcrumb CSS
+            + Item details CSS
+            + Help CSS
+            + Error CSS
+            + Register CSS
+            + Contact CSS
+            + Dashboard CSS
+            + Dark CSS
+
+[font-family]
+'DM', sans-serif;
+*/
+
+/* Import fonts & SCSS files */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+@import "responsive.scss";
+@import "variables.scss";
+@import "reboot.scss";
+@import "shortcode.scss";
+
+@import "header.scss";
+@import "hero.scss";
+@import "footer.scss";
+@import "nft.scss";
+
+@import "about.scss";
+@import "tab.scss";
+@import "feedback.scss";
+@import "blog.scss";
+
+@import "cta.scss";
+@import "breadcrumb.scss";
+@import "item-details.scss";
+@import "help.scss";
+
+@import "error.scss";
+@import "register.scss";
+@import "contact.scss";
+@import "dashboard.scss";
+
+@import "dark.scss";
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #fc466b;
+    --bs-btn-border-color: #fc466b;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #fc466b;
+    --bs-btn-hover-border-color: #e91f71;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #fc466b;
+    --bs-btn-active-border-color: #fc466b;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #fc466b;
+    --bs-btn-disabled-border-color: #fc466b;
+}
+
+
+.btn-warning {
+    --bs-btn-color: #000;
+    --bs-btn-bg: #fcff15;
+    --bs-btn-border-color: #fcff15;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #fcff15;
+    --bs-btn-hover-border-color: #fcff15;
+    --bs-btn-focus-shadow-rgb: 217,164,6;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #fcff15;
+    --bs-btn-active-border-color: #ffc720;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: #fcff15;
+    --bs-btn-disabled-border-color: #fcff15;
+}
+
+.popular-collection-select {
+    color: #fcff15 !important
+
+}   
